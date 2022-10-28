@@ -8,6 +8,6 @@
 
 * Display state-specific data while the cursor is hovering over a state 
 
-* Added a color bar t0 better compare states per question of inquiry
+* Added a color bar to better compare states per question of inquiry
 
 ![](https://github.com/GoldEXPerience0/Data-Science-Portfolio/blob/500ddbc577f0834ad9cc0cd4d2f6f28e926bf413/images/CDCmap.png)
