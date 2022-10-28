@@ -1,5 +1,3 @@
-# Data Science Portfolio
-
 # Project 1: Visualizing CDC Behavioral Health Data via Geo-spatial Plot  
 
 * Merged a CDC dataset on behavioral health and a health policy dataset for the number of relevant policies passed
