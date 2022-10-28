@@ -6,8 +6,8 @@
 
 * Designed a dependent drop-down menu to select a health topic and subsequently a question of inquiry 
 
-* Display state-specific data while a cursor is hovering over a state 
+* Display state-specific data while the cursor is hovering over a state 
 
-* Added color bar better compare states per question of inquiry
+* Added a color bar t0 better compare states per question of inquiry
 
 ![](https://github.com/GoldEXPerience0/Data-Science-Portfolio/blob/500ddbc577f0834ad9cc0cd4d2f6f28e926bf413/images/CDCmap.png)
