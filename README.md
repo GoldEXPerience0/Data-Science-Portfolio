@@ -2,12 +2,12 @@
 
 # Project 1: Visualizing CDC Behavioral Health Data via Geo-spatial Plot  
 
-*Merged CDC data on health behavior and state-based policy
+* Merged a CDC dataset on behavioral health and a health policy dataset for the number of relevant policies passed
 
-*Designed a dragging bar to change the year in question
+* Designed a dragging bar to change the map year by year
 
-*Designed a drop-down menu to change question of inquiry 
+* Designed a dependent drop-down menu to select a health topic and subsequently a question of inquiry 
 
-*Display state-specific data when hovering over state 
+* Display state-specific data while a cursor is hovering over a state 
 
-*Added color bar to enhance comparison between states per question of inquiry
+* Added color bar better compare states per question of inquiry
