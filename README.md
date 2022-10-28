@@ -1,4 +1,4 @@
-# Project 1: Visualizing CDC Behavioral Health Data via Geo-spatial Plot  
+# [Project 1: Visualizing CDC Behavioral Health Data via Geo-spatial Plot](https://github.com/GoldEXPerience0/CDC_BehaviorPolicy_GeoPlot/blob/main/CDC%20Health%20Behavior%20Geo.ipynb)  
 
 * Merged a CDC dataset on behavioral health and a health policy dataset for the number of relevant policies passed
 
