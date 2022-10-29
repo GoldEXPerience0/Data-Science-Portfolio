@@ -11,3 +11,6 @@
 * Added a color bar to better compare states per question of inquiry
 
 ![](/images/CDCmap.png)
+
+# [Blog](https://kenudata.blogspot.com/)
+View my most recent posts on data topics.
