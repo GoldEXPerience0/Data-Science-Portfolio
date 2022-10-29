@@ -13,4 +13,5 @@
 ![](/images/CDCmap.png)
 
 # [Blog](https://kenudata.blogspot.com/)
+![](/images/kenudata_blog.png)
 View my most recent posts on data topics.
