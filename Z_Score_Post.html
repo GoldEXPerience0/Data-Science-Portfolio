@@ -42,13 +42,50 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Z score</h1>
+									<h1>Z-score</h1>
 									<p>Where am I on the normal distribution?</p>
 								</header>
 								<div class="image main"><img src="images/zscore.png" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
-                                <ul class="actions special">
+								<h2>What is a Z-score?</h2>
+								<p>Z-score is a number that signifies how far a raw number is from the mean by a number of standard deviations. Wait, what do you mean by a raw number?
+								Raw numbers are just the values that you originally have to analyze like scores on a test, but they become z-scores after a mathematical transformation.
+								It is also important to note that this transformation is valid if the distribution of the raw values takes on the form of a <a href='NormalDist_Post.html'><em>normal distribution</em></a>.
+								After the transformation, they are essentially "cooked" and ready to be "served," i.e., interpreted. Let's say the mean score is 70 out of 100 with a standard deviation of 20,
+								and we have other scores like 50 and 95. The equation from the featured image is used, the mean would then be transformed to 0 because it is at the mean; 
+								lower values than the mean would be negative with 50 becoming -1; and, higher values than the mean would be positive with 95 becoming +1.25. 
+								</p>
+								<div class="image main"><img src="images/sampleZscoreCalc.png" alt="" /></div>
+								<div class="image main"><img src="images/Zscore_location.png" alt="" /></div>
+								<p>
+								In the illustration above, the bell curves have vertical dashed lines with the center being the mean and others to the left and right in increments of 1 standard deviation--with 3 on the left and 3 on the right.
+								The values labeled on the top are the raw values of the scores, and the bottom we have -1 standard deviation and +1 standard deviation to the left and right respectively. The standard deviations continue as 
+								-2 and -3 on the left and +2 and +3 on the right, but are left out to not crowd the graph.
+								I have labeled the raw values in black that transform into the z-scores shown in blue. The vertical line in blue shows its final calculated location showing its relative position.
+								</p>
+								<p>
+								By using a Z-score, it becomes easier to compare where any particular raw number is in comparison to the rest of the numbers because it is based on a common reference point: the mean. 
+								We know the direction the relative value is by the sign of the z-score, and we know roughly how far the value is from the mean by the magnitude of the number. Moreover, knowing where a value relative to others 
+								can be done by percentile because the area under the distribution sums up to 1, meaning parts of the curve are essentially fractions of 100, and a raw value can be 0.75, the 75 percentile, being 
+								a value 75% above all other values in relation to the set of values. More of this will be clarified with worked out examples below.  
+								</p>
+								<h2>What is a Z-table?</h2>
+								<p>However, before more calculations, it is best to know your tools. One of them is the <a href="https://www.google.com/search?q=z+table&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjDvLfm65z7AhV1FlkFHWAeD3sQ_AUoAXoECAMQAw&biw=1280&bih=609&dpr=1.5"><em>Z-table</em></a> also known as the <em>standard normal table</em>.
+								This can actually be shown as two tables, but the idea is that the z-score corresponds to the cumulative amount of area it covers from the left most end of the normal distribution towards the right to its exact z-score. One table shows z-scores that are negative, so the z-scores are to the left of the mean. Inversely, 
+								the other table shows positive z-scores that are to the right of the mean. The rows on the left of the table are one's and tenth's digit of the z-score,
+								and the columns above show the hundreth's digit of the z-score. The intersection of the row and column is just the score added together. For example, if one had a z-score of -2.35, the row would be -2.3 and the column would be 0.05, so the combination would be -2.35.
+								With that in mind, the intersection is the area that is covered from the far left of the distribution to that exact z-score. Because the total area of the population sums to 1, this area corresponds to the probability of having those range of values, or the percentile score.
+								<div class="image main"><img src="images/ztable_probpercent.png" alt="" /></div>
+								</p>
+								<h2>What are some questions we can ask?</h2>
+								<p>We can ask what is the probability (the decimal form) or percentile score (percent form) of raw values below, above, or between values.</p>
+								<h2>How to use Z-score for outlier detection?</h2>
+								<p></p>
+								<h2>Z-score vs Z-statistic</h2>
+								<p></p>
+								<h2>Z-score vs T-score?</h2>
+								<p>Z-scores are used for normal distributions, where you know the population standard deviation and there are at least 30 samples.</p>
+                                
+								<ul class="actions special">
                                     <li><a href="blog.html" class="button">Read More Posts</a></li>
                                 </ul>
                             </section>
